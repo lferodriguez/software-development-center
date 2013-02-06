@@ -1,0 +1,7 @@
+D:\(personal) documents\SoftwareDevelopmentCenter\Managment.SoftwareDevelopmentCenter\WebUI\bin\WebUI.dll
+D:\(personal) documents\SoftwareDevelopmentCenter\Managment.SoftwareDevelopmentCenter\WebUI\bin\WebUI.pdb
+D:\(personal) documents\SoftwareDevelopmentCenter\Managment.SoftwareDevelopmentCenter\WebUI\obj\Debug\ResolveAssemblyReference.cache
+D:\(personal) documents\SoftwareDevelopmentCenter\Managment.SoftwareDevelopmentCenter\WebUI\obj\Debug\WebUI.dll
+D:\(personal) documents\SoftwareDevelopmentCenter\Managment.SoftwareDevelopmentCenter\WebUI\obj\Debug\WebUI.pdb
+D:\(personal) documents\SoftwareDevelopmentCenter\Managment.SoftwareDevelopmentCenter\WebUI\bin\SystemEngine.dll
+D:\(personal) documents\SoftwareDevelopmentCenter\Managment.SoftwareDevelopmentCenter\WebUI\bin\SystemEngine.pdb
