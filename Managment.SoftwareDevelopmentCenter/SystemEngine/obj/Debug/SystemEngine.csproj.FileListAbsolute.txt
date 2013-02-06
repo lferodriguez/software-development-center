@@ -1,0 +1,5 @@
+D:\(personal) documents\SoftwareDevelopmentCenter\Managment.SoftwareDevelopmentCenter\SystemEngine\obj\Debug\ResolveAssemblyReference.cache
+D:\(personal) documents\SoftwareDevelopmentCenter\Managment.SoftwareDevelopmentCenter\SystemEngine\bin\Debug\SystemEngine.dll
+D:\(personal) documents\SoftwareDevelopmentCenter\Managment.SoftwareDevelopmentCenter\SystemEngine\bin\Debug\SystemEngine.pdb
+D:\(personal) documents\SoftwareDevelopmentCenter\Managment.SoftwareDevelopmentCenter\SystemEngine\obj\Debug\SystemEngine.dll
+D:\(personal) documents\SoftwareDevelopmentCenter\Managment.SoftwareDevelopmentCenter\SystemEngine\obj\Debug\SystemEngine.pdb

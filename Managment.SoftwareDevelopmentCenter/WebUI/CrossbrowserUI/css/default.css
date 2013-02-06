@@ -1,0 +1,15 @@
+﻿body{margin:0px 0px 0px 0px;font-family:Tahoma,Verdana,Segoe,sans-serif; font-size:10px;}
+table.mainContainer {width:1024px;}
+table.mainContainer td.leftColumn {width:600px;}
+table.mainContainer td.leftColumn td.bannerText{ background-color:#FF7F27; height:100px;}
+table.mainContainer td.centerColumn {width:424px; vertical-align:top;}
+
+.ho_textBox{ border-color:#C3C3C3; border-width:1px; border-style:solid; height:30px; width:300px;
+             font-family:Tahoma,Verdana; color:#C3C3C3;
+           }
+.ho_button{ background-color:#00A2E8;border-width:0px; border-style:solid; color:#FFFFFF; height:30px; width:100px;}
+.ho_label{ font-family:Tahoma,Verdana; color:#000000; font-size:11px;}
+label.error {margin-left: 10px;
+             width: auto;display:list-item;
+             color:#FF7F27; font-size:10px;}
+.messages{color:#FF7F27; font-size:11px;}

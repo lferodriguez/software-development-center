@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B98F1D84-1E2D-4A7D-A6A6-2E98474DC5B3}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WebUI</RootNamespace>
+    <AssemblyName>WebUI</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="CrossbrowserUI\css\cupertino\images\ui-bg_diagonals-thick_90_eeeeee_40x40.png" />
+    <Content Include="CrossbrowserUI\css\cupertino\images\ui-bg_flat_15_cd0a0a_40x100.png" />
+    <Content Include="CrossbrowserUI\css\cupertino\images\ui-bg_glass_100_e4f1fb_1x400.png" />
+    <Content Include="CrossbrowserUI\css\cupertino\images\ui-bg_glass_50_3baae3_1x400.png" />
+    <Content Include="CrossbrowserUI\css\cupertino\images\ui-bg_glass_80_d7ebf9_1x400.png" />
+    <Content Include="CrossbrowserUI\css\cupertino\images\ui-bg_highlight-hard_100_f2f5f7_1x100.png" />
+    <Content Include="CrossbrowserUI\css\cupertino\images\ui-bg_highlight-hard_70_000000_1x100.png" />
+    <Content Include="CrossbrowserUI\css\cupertino\images\ui-bg_highlight-soft_100_deedf7_1x100.png" />
+    <Content Include="CrossbrowserUI\css\cupertino\images\ui-bg_highlight-soft_25_ffef8f_1x100.png" />
+    <Content Include="CrossbrowserUI\css\cupertino\images\ui-icons_2694e8_256x240.png" />
+    <Content Include="CrossbrowserUI\css\cupertino\images\ui-icons_2e83ff_256x240.png" />
+    <Content Include="CrossbrowserUI\css\cupertino\images\ui-icons_3d80b3_256x240.png" />
+    <Content Include="CrossbrowserUI\css\cupertino\images\ui-icons_72a7cf_256x240.png" />
+    <Content Include="CrossbrowserUI\css\cupertino\images\ui-icons_ffffff_256x240.png" />
+    <Content Include="CrossbrowserUI\css\cupertino\jquery-ui-1.10.0.custom.css" />
+    <Content Include="CrossbrowserUI\css\cupertino\jquery-ui-1.10.0.custom.min.css" />
+    <Content Include="CrossbrowserUI\css\default.css" />
+    <Content Include="CrossbrowserUI\css\main.css" />
+    <Content Include="CrossbrowserUI\Default.aspx" />
+    <Content Include="CrossbrowserUI\images\img0000.jpg" />
+    <Content Include="CrossbrowserUI\images\img0001.png" />
+    <Content Include="CrossbrowserUI\images\img0002.png" />
+    <Content Include="CrossbrowserUI\images\img0003.png" />
+    <Content Include="CrossbrowserUI\images\img0004.png" />
+    <Content Include="CrossbrowserUI\images\img0005.png" />
+    <Content Include="CrossbrowserUI\js\additional-methods.js" />
+    <Content Include="CrossbrowserUI\js\jquery-1.9.0.js" />
+    <Content Include="CrossbrowserUI\js\jquery-ui-1.10.0.custom.js" />
+    <Content Include="CrossbrowserUI\js\jquery-ui-1.10.0.custom.min.js" />
+    <Content Include="CrossbrowserUI\js\jquery.metadata.js" />
+    <Content Include="CrossbrowserUI\js\jquery.validate.js" />
+    <Content Include="CrossbrowserUI\main.aspx" />
+    <Content Include="CrossbrowserUI\WebUserControls\ClientScriptsHandler.ascx" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CrossbrowserUI\Common\uiEnhacements.cs" />
+    <Compile Include="CrossbrowserUI\CrossbrowserUI.Master.cs">
+      <DependentUpon>CrossbrowserUI.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CrossbrowserUI\CrossbrowserUI.Master.designer.cs">
+      <DependentUpon>CrossbrowserUI.Master</DependentUpon>
+    </Compile>
+    <Compile Include="CrossbrowserUI\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CrossbrowserUI\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CrossbrowserUI\main.aspx.cs">
+      <DependentUpon>main.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CrossbrowserUI\main.aspx.designer.cs">
+      <DependentUpon>main.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CrossbrowserUI\WebUserControls\ClientScriptsHandler.ascx.cs">
+      <DependentUpon>ClientScriptsHandler.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CrossbrowserUI\WebUserControls\ClientScriptsHandler.ascx.designer.cs">
+      <DependentUpon>ClientScriptsHandler.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="CrossbrowserUI\CrossbrowserUI.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SystemEngine\SystemEngine.csproj">
+      <Project>{CC9CE4DC-6A41-46B0-94C3-7BAF1593F8AC}</Project>
+      <Name>SystemEngine</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>2631</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

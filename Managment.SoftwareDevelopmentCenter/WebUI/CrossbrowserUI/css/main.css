@@ -1,0 +1,6 @@
+﻿body{margin:0px 0px 0px 0px;font-family:Tahoma,Verdana,Segoe,sans-serif; font-size:11px;}
+table.mainContainer {width:100%;}
+table.mainContainer td.header { height:40px; background-color:#00A2E8; color:#ffffff;}
+table.mainContainer td.container{}
+.userLabel {color:#ffffff; font-size:11px;}
+a.headerMenu {color:#ffffff;}
